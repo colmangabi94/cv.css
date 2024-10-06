@@ -32,7 +32,11 @@ function Variables (let)
 
     //Ejercicio 4: Tipo de datos
     function Tipos de datos (string, number, boolean, null, undefined, objeto, array,
-        function string() {'Estás aprendiendo ' + 'JavaScript'  // 'Estás aprendiendo JavaScript' }
+        {function string() {'Estás aprendiendo ' + 'JavaScript'  // 'Estás aprendiendo JavaScript' }
             function number (2 + 2) * 3   // 8
             (2 + 2) * 3 // 12) 
-console.log (string());
+console.log (string( 2 + 2) * 3)  // 12
+}
+
+
+
